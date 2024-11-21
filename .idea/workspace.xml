@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ce17a20-e1f5-4360-b28e-869a903ffa96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/step3/KlassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step3/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step4/TeacherTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oo/Klass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oo/Klass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oo/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oo/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,10 +52,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Day4Homework [dependencies].executor": "Run",
+    "Gradle.KlassTest.executor": "Run",
     "Gradle.PersonTest (1).executor": "Run",
     "Gradle.PersonTest.executor": "Run",
+    "Gradle.StudentTest (1).executor": "Run",
     "Gradle.StudentTest.executor": "Run",
+    "Gradle.TeacherTest (1).executor": "Run",
     "Gradle.TeacherTest.executor": "Run",
+    "Gradle.TeacherTest.should_return_message_with_name_age_and_class_when_introduce_given_teacher_teaches_multiple_classes.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -65,7 +78,7 @@
       <recent name="step2" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StudentTest (1)">
+  <component name="RunManager" selected="Gradle.TeacherTest (1)">
     <configuration name="KlassTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -80,30 +93,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;step3.KlassTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="PersonTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;step2.PersonTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -138,7 +127,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StudentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TeacherTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -151,7 +140,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;step2.StudentTest&quot;" />
+            <option value="&quot;step4.TeacherTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,13 +175,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="TeacherTest.should_return_message_with_name_age_and_class_when_introduce_given_teacher_teaches_multiple_classes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;step4.TeacherTest.should_return_message_with_name_age_and_class_when_introduce_given_teacher_teaches_multiple_classes&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TeacherTest (1)" />
+        <item itemvalue="Gradle.TeacherTest.should_return_message_with_name_age_and_class_when_introduce_given_teacher_teaches_multiple_classes" />
         <item itemvalue="Gradle.StudentTest (1)" />
         <item itemvalue="Gradle.KlassTest" />
         <item itemvalue="Gradle.TeacherTest" />
-        <item itemvalue="Gradle.StudentTest" />
-        <item itemvalue="Gradle.PersonTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +224,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732190927348</updated>
-      <workItem from="1732190928339" duration="1429000" />
+      <workItem from="1732190928339" duration="2050000" />
     </task>
     <servers />
   </component>
