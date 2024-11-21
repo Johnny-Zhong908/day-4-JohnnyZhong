@@ -65,27 +65,29 @@
       <recent name="step2" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TeacherTest">
-    <configuration name="Day4Homework [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.StudentTest (1)">
+    <configuration name="KlassTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="dependencies" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;step3.KlassTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="PersonTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -112,7 +114,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="PersonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StudentTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -125,7 +127,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;step1.PersonTest&quot;" />
+            <option value="&quot;step3.StudentTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StudentTest (1)" />
+        <item itemvalue="Gradle.KlassTest" />
         <item itemvalue="Gradle.TeacherTest" />
         <item itemvalue="Gradle.StudentTest" />
         <item itemvalue="Gradle.PersonTest (1)" />
-        <item itemvalue="Gradle.PersonTest" />
-        <item itemvalue="Gradle.Day4Homework [dependencies]" />
       </list>
     </recent_temporary>
   </component>
