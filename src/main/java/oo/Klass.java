@@ -1,8 +1,13 @@
 package oo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Klass {
     private int number;
     private Student leader;
+    private List<Student> students = new ArrayList<>();
+    private List<Teacher> teachers = new ArrayList<>();
 
     public Klass(int number) {
         this.number = number;
@@ -12,28 +17,39 @@ public class Klass {
         return number;
     }
 
+    public void addStudent(Student student) {
+        students.add(student);
+    }
+
+    public void attach(Teacher teacher) {
+        teachers.add(teacher);
+    }
+
+    public void attach(Student student) {
+        students.add(student);
+    }
+
     public void assignLeader(Student student) {
-        if (student.isIn(this)) {
+        if (students.contains(student)) {
             this.leader = student;
+
+            for (Teacher teacher : teachers) {
+                teacher.notifyLeaderAssigned(student, this);
+            }
+
+            for (Student s : students) {
+                if (!s.equals(student)) {
+                    s.notifyLeaderAssigned(student, this);
+                }
+            }
         } else {
             System.out.println("It is not one of us.");
         }
     }
 
+
+
     public boolean isLeader(Student student) {
         return student.equals(leader);
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || getClass() != obj.getClass()) return false;
-        Klass klass = (Klass) obj;
-        return number == klass.number;
-    }
-
-    @Override
-    public int hashCode() {
-        return Integer.hashCode(number);
     }
 }

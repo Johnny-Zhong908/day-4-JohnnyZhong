@@ -9,6 +9,7 @@ public class Student extends Person {
 
     public void join(Klass klass) {
         this.klass = klass;
+        klass.addStudent(this);
     }
 
     public boolean isIn(Klass klass) {
@@ -30,5 +31,10 @@ public class Student extends Person {
             }
         }
         return introduction;
+    }
+
+    public void notifyLeaderAssigned(Student leader, Klass klass) {
+        System.out.println("I am " + this.getName() + ", student of Class " + klass.getNumber() +
+                ". I know " + leader.getName() + " become Leader.");
     }
 }
